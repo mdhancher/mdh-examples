@@ -59,9 +59,3 @@ print(ui.Thumbnail(image.clip(conus), {crs: 'EPSG:3857'}));
 
 // Use a CONUS Albers equal-area conic projection.
 print(ui.Thumbnail(image.clip(conus), {crs: 'EPSG:5072'}));
-
-// Use UTM Zone 10N (appropriate for California).
-print(ui.Thumbnail(image.clip(conus), {crs: 'EPSG:32610'}));
-
-// Use UTM Zone 19N (appropriate for Maine).
-print(ui.Thumbnail(image.clip(conus), {crs: 'EPSG:32619'}));
