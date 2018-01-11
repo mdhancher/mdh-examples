@@ -1,4 +1,8 @@
-// Load the global accessibility to cities image and the friction surface.
+// An example Earth Engine script demonstrating how to use the global
+// Accessibility to Cities 2015 dataset and associated Friction Surface
+// published by Weiss et al., Nature (2018).
+
+// Load the global Accessibility to Cities image and the Friction Surface.
 var accessibility = ee.Image('Oxford/MAP/accessibility_to_cities_2015_v1_0');
 var friction = ee.Image('Oxford/MAP/friction_surface_2015_v1_0');
 
