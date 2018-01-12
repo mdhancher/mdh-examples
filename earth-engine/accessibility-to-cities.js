@@ -35,6 +35,7 @@ Map.addLayer(frictionRgb, {}, 'Friction Surface', false);
 // Locations of hospitals on Wikipedia's list of hospitals in Hawaii:
 // https://en.wikipedia.org/wiki/List_of_hospitals_in_Hawaii
 var hospitals = ee.FeatureCollection([
+  ee.Feature(ee.Geometry.Point(-155.117877, 19.717436)), // Hilo Medical Center, Hilo, Hawaii
   ee.Feature(ee.Geometry.Point(-155.474303, 19.199648)), // Ka'u Hospital, Pahala, Hawaii
   ee.Feature(ee.Geometry.Point(-155.798820, 20.232308)), // Kohala Hospital, Kapaau, Hawaii
   ee.Feature(ee.Geometry.Point(-155.919575, 19.519953)), // Kona Community Hospital, Kealakekua, Hawaii
@@ -46,6 +47,7 @@ var hospitals = ee.FeatureCollection([
   ee.Feature(ee.Geometry.Point(-156.491893, 20.884188)), // Cancer Institute of Maui, Wailuku, Maui
   ee.Feature(ee.Geometry.Point(-156.359472, 20.701346)), // Kula Hospital, Kula, Maui
   ee.Feature(ee.Geometry.Point(-156.491672, 20.884633)), // Maui Memorial Medical Cente, Wailuku, Maui
+  ee.Feature(ee.Geometry.Point(-157.022895, 21.093008)), // Molokai General Hospital, Kaunakakai, Molokai
   ee.Feature(ee.Geometry.Point(-157.759709, 21.380644)), // Adventist Health Castle, Kailua, Oahu
   ee.Feature(ee.Geometry.Point(-157.817951, 21.405076)), // Hawaii State Hospital, Kaneohe, Oahu
   ee.Feature(ee.Geometry.Point(-157.956410, 21.676608)), // Kahuku Medical Center, Kahuku, Oahu
